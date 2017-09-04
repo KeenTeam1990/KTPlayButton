@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36AA93FC1F5D52AB000C478F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AA93FB1F5D52AB000C478F /* main.m */; };
+		36AA93FF1F5D52AB000C478F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AA93FE1F5D52AB000C478F /* AppDelegate.m */; };
+		36AA94021F5D52AB000C478F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AA94011F5D52AB000C478F /* ViewController.m */; };
+		36AA94051F5D52AB000C478F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36AA94031F5D52AB000C478F /* Main.storyboard */; };
+		36AA94071F5D52AB000C478F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36AA94061F5D52AB000C478F /* Assets.xcassets */; };
+		36AA940A1F5D52AB000C478F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36AA94081F5D52AB000C478F /* LaunchScreen.storyboard */; };
+		36AA94151F5D52AB000C478F /* KTPlayButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AA94141F5D52AB000C478F /* KTPlayButtonTests.m */; };
+		36AA94201F5D52AB000C478F /* KTPlayButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AA941F1F5D52AB000C478F /* KTPlayButtonUITests.m */; };
+		36AA94331F5D52F3000C478F /* iQiYiPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AA942F1F5D52F3000C478F /* iQiYiPlayButton.m */; };
+		36AA94341F5D52F3000C478F /* YouKuPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AA94321F5D52F3000C478F /* YouKuPlayButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36AA94111F5D52AB000C478F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36AA93EF1F5D52AA000C478F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36AA93F61F5D52AB000C478F;
+			remoteInfo = KTPlayButton;
+		};
+		36AA941C1F5D52AB000C478F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36AA93EF1F5D52AA000C478F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36AA93F61F5D52AB000C478F;
+			remoteInfo = KTPlayButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36AA93F71F5D52AB000C478F /* KTPlayButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTPlayButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36AA93FB1F5D52AB000C478F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36AA93FD1F5D52AB000C478F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36AA93FE1F5D52AB000C478F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36AA94001F5D52AB000C478F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36AA94011F5D52AB000C478F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36AA94041F5D52AB000C478F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36AA94061F5D52AB000C478F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36AA94091F5D52AB000C478F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36AA940B1F5D52AB000C478F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36AA94101F5D52AB000C478F /* KTPlayButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTPlayButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36AA94141F5D52AB000C478F /* KTPlayButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTPlayButtonTests.m; sourceTree = "<group>"; };
+		36AA94161F5D52AB000C478F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36AA941B1F5D52AB000C478F /* KTPlayButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTPlayButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36AA941F1F5D52AB000C478F /* KTPlayButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTPlayButtonUITests.m; sourceTree = "<group>"; };
+		36AA94211F5D52AB000C478F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36AA942E1F5D52F3000C478F /* iQiYiPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQiYiPlayButton.h; sourceTree = "<group>"; };
+		36AA942F1F5D52F3000C478F /* iQiYiPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iQiYiPlayButton.m; sourceTree = "<group>"; };
+		36AA94311F5D52F3000C478F /* YouKuPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouKuPlayButton.h; sourceTree = "<group>"; };
+		36AA94321F5D52F3000C478F /* YouKuPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouKuPlayButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36AA93F41F5D52AB000C478F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36AA940D1F5D52AB000C478F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36AA94181F5D52AB000C478F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36AA93EE1F5D52AA000C478F = {
+			isa = PBXGroup;
+			children = (
+				36AA93F91F5D52AB000C478F /* KTPlayButton */,
+				36AA94131F5D52AB000C478F /* KTPlayButtonTests */,
+				36AA941E1F5D52AB000C478F /* KTPlayButtonUITests */,
+				36AA93F81F5D52AB000C478F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36AA93F81F5D52AB000C478F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36AA93F71F5D52AB000C478F /* KTPlayButton.app */,
+				36AA94101F5D52AB000C478F /* KTPlayButtonTests.xctest */,
+				36AA941B1F5D52AB000C478F /* KTPlayButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36AA93F91F5D52AB000C478F /* KTPlayButton */ = {
+			isa = PBXGroup;
+			children = (
+				36AA942D1F5D52F3000C478F /* iQiYiPlayButton */,
+				36AA94301F5D52F3000C478F /* YouKuPlayButton */,
+				36AA93FD1F5D52AB000C478F /* AppDelegate.h */,
+				36AA93FE1F5D52AB000C478F /* AppDelegate.m */,
+				36AA94001F5D52AB000C478F /* ViewController.h */,
+				36AA94011F5D52AB000C478F /* ViewController.m */,
+				36AA94031F5D52AB000C478F /* Main.storyboard */,
+				36AA94061F5D52AB000C478F /* Assets.xcassets */,
+				36AA94081F5D52AB000C478F /* LaunchScreen.storyboard */,
+				36AA940B1F5D52AB000C478F /* Info.plist */,
+				36AA93FA1F5D52AB000C478F /* Supporting Files */,
+			);
+			path = KTPlayButton;
+			sourceTree = "<group>";
+		};
+		36AA93FA1F5D52AB000C478F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36AA93FB1F5D52AB000C478F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36AA94131F5D52AB000C478F /* KTPlayButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				36AA94141F5D52AB000C478F /* KTPlayButtonTests.m */,
+				36AA94161F5D52AB000C478F /* Info.plist */,
+			);
+			path = KTPlayButtonTests;
+			sourceTree = "<group>";
+		};
+		36AA941E1F5D52AB000C478F /* KTPlayButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36AA941F1F5D52AB000C478F /* KTPlayButtonUITests.m */,
+				36AA94211F5D52AB000C478F /* Info.plist */,
+			);
+			path = KTPlayButtonUITests;
+			sourceTree = "<group>";
+		};
+		36AA942D1F5D52F3000C478F /* iQiYiPlayButton */ = {
+			isa = PBXGroup;
+			children = (
+				36AA942E1F5D52F3000C478F /* iQiYiPlayButton.h */,
+				36AA942F1F5D52F3000C478F /* iQiYiPlayButton.m */,
+			);
+			path = iQiYiPlayButton;
+			sourceTree = "<group>";
+		};
+		36AA94301F5D52F3000C478F /* YouKuPlayButton */ = {
+			isa = PBXGroup;
+			children = (
+				36AA94311F5D52F3000C478F /* YouKuPlayButton.h */,
+				36AA94321F5D52F3000C478F /* YouKuPlayButton.m */,
+			);
+			path = YouKuPlayButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36AA93F61F5D52AB000C478F /* KTPlayButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36AA94241F5D52AB000C478F /* Build configuration list for PBXNativeTarget "KTPlayButton" */;
+			buildPhases = (
+				36AA93F31F5D52AB000C478F /* Sources */,
+				36AA93F41F5D52AB000C478F /* Frameworks */,
+				36AA93F51F5D52AB000C478F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTPlayButton;
+			productName = KTPlayButton;
+			productReference = 36AA93F71F5D52AB000C478F /* KTPlayButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36AA940F1F5D52AB000C478F /* KTPlayButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36AA94271F5D52AB000C478F /* Build configuration list for PBXNativeTarget "KTPlayButtonTests" */;
+			buildPhases = (
+				36AA940C1F5D52AB000C478F /* Sources */,
+				36AA940D1F5D52AB000C478F /* Frameworks */,
+				36AA940E1F5D52AB000C478F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36AA94121F5D52AB000C478F /* PBXTargetDependency */,
+			);
+			name = KTPlayButtonTests;
+			productName = KTPlayButtonTests;
+			productReference = 36AA94101F5D52AB000C478F /* KTPlayButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36AA941A1F5D52AB000C478F /* KTPlayButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36AA942A1F5D52AB000C478F /* Build configuration list for PBXNativeTarget "KTPlayButtonUITests" */;
+			buildPhases = (
+				36AA94171F5D52AB000C478F /* Sources */,
+				36AA94181F5D52AB000C478F /* Frameworks */,
+				36AA94191F5D52AB000C478F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36AA941D1F5D52AB000C478F /* PBXTargetDependency */,
+			);
+			name = KTPlayButtonUITests;
+			productName = KTPlayButtonUITests;
+			productReference = 36AA941B1F5D52AB000C478F /* KTPlayButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36AA93EF1F5D52AA000C478F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KEENTEAM;
+				TargetAttributes = {
+					36AA93F61F5D52AB000C478F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z9EUSLXX48;
+						ProvisioningStyle = Automatic;
+					};
+					36AA940F1F5D52AB000C478F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z9EUSLXX48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36AA93F61F5D52AB000C478F;
+					};
+					36AA941A1F5D52AB000C478F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z9EUSLXX48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36AA93F61F5D52AB000C478F;
+					};
+				};
+			};
+			buildConfigurationList = 36AA93F21F5D52AA000C478F /* Build configuration list for PBXProject "KTPlayButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36AA93EE1F5D52AA000C478F;
+			productRefGroup = 36AA93F81F5D52AB000C478F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36AA93F61F5D52AB000C478F /* KTPlayButton */,
+				36AA940F1F5D52AB000C478F /* KTPlayButtonTests */,
+				36AA941A1F5D52AB000C478F /* KTPlayButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36AA93F51F5D52AB000C478F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AA940A1F5D52AB000C478F /* LaunchScreen.storyboard in Resources */,
+				36AA94071F5D52AB000C478F /* Assets.xcassets in Resources */,
+				36AA94051F5D52AB000C478F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36AA940E1F5D52AB000C478F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36AA94191F5D52AB000C478F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36AA93F31F5D52AB000C478F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AA94021F5D52AB000C478F /* ViewController.m in Sources */,
+				36AA94341F5D52F3000C478F /* YouKuPlayButton.m in Sources */,
+				36AA93FF1F5D52AB000C478F /* AppDelegate.m in Sources */,
+				36AA93FC1F5D52AB000C478F /* main.m in Sources */,
+				36AA94331F5D52F3000C478F /* iQiYiPlayButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36AA940C1F5D52AB000C478F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AA94151F5D52AB000C478F /* KTPlayButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36AA94171F5D52AB000C478F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AA94201F5D52AB000C478F /* KTPlayButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36AA94121F5D52AB000C478F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36AA93F61F5D52AB000C478F /* KTPlayButton */;
+			targetProxy = 36AA94111F5D52AB000C478F /* PBXContainerItemProxy */;
+		};
+		36AA941D1F5D52AB000C478F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36AA93F61F5D52AB000C478F /* KTPlayButton */;
+			targetProxy = 36AA941C1F5D52AB000C478F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36AA94031F5D52AB000C478F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36AA94041F5D52AB000C478F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36AA94081F5D52AB000C478F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36AA94091F5D52AB000C478F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36AA94221F5D52AB000C478F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36AA94231F5D52AB000C478F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36AA94251F5D52AB000C478F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTPlayButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.KTPlayButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36AA94261F5D52AB000C478F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTPlayButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.KTPlayButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36AA94281F5D52AB000C478F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTPlayButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.KTPlayButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTPlayButton.app/KTPlayButton";
+			};
+			name = Debug;
+		};
+		36AA94291F5D52AB000C478F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTPlayButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.KTPlayButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTPlayButton.app/KTPlayButton";
+			};
+			name = Release;
+		};
+		36AA942B1F5D52AB000C478F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTPlayButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.KTPlayButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KTPlayButton;
+			};
+			name = Debug;
+		};
+		36AA942C1F5D52AB000C478F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTPlayButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.KTPlayButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KTPlayButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36AA93F21F5D52AA000C478F /* Build configuration list for PBXProject "KTPlayButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AA94221F5D52AB000C478F /* Debug */,
+				36AA94231F5D52AB000C478F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36AA94241F5D52AB000C478F /* Build configuration list for PBXNativeTarget "KTPlayButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AA94251F5D52AB000C478F /* Debug */,
+				36AA94261F5D52AB000C478F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36AA94271F5D52AB000C478F /* Build configuration list for PBXNativeTarget "KTPlayButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AA94281F5D52AB000C478F /* Debug */,
+				36AA94291F5D52AB000C478F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36AA942A1F5D52AB000C478F /* Build configuration list for PBXNativeTarget "KTPlayButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AA942B1F5D52AB000C478F /* Debug */,
+				36AA942C1F5D52AB000C478F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36AA93EF1F5D52AA000C478F /* Project object */;
+}
